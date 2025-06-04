@@ -18,6 +18,18 @@ body{
   color: #bbbbbb;
 }
 
+@media (max-width: 2560px){
+  body{
+    padding: 0 30%;
+  }
+}
+
+@media (max-width: 1440px){
+  body{
+    padding: 0 0%;
+  }
+}
+
 .container{
   padding: 0 7%;
 }
@@ -83,12 +95,12 @@ body{
 
 .bottom-navbar .bottom-icon i{
   color: #bbbbbb;
-  font-size: 16px;
+  font-size: 18px;
   transition: all 0.3s ease-in-out;
 }
 
 .bottom-navbar .bottom-icon p{
-  font-size: 10px;
+  font-size: 12px;
   color: #bbbbbb;
   transition: all 0.3s ease-in-out;
 }
